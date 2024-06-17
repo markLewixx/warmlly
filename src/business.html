@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="assets/round_warmlly.svg" type="image/x-icon">
+  <title>Warmlly-table reservation business</title>
+</head>
+<body>
+    <div id="container-nav">
+      <div id="nav-logo"><img src="assets/Warmlly@2x 1.svg" alt="warmlly logo"></div>
+      <nav id="nav">
+        <ul>
+          <li><a href="">Restaurants</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+          <li><button class="login">Login</button></li>
+          <li><button class="signup">SignUp</button></li>
+        </ul>
+      </nav>
+    </div>
+
+  <main>
+    <section id="hero"> 
+      <h1 class="hidden">
+        Revolutionize <br> your <br> restaurant <br> experience <br>
+        with <span id="warmlly-hero-name">Warmlly</span>
+      </h1>
+      <p class="hidden"> Streamline table reservations, <br> online food ordering, menu showcasing, and <br> more as a business with our cutting-edge software.</p>
+      <button id="hero-cta">Try Demo</button>
+    </section>
+    <section id="about">
+      <h2>About Warmlly?</h2>
+      <p  class="hidden">At Warmlly, we understand the heartbeat of your business lies in the perfect dining <br>experience. That's why we've crafted intuitive table reservation software tailored to <br> businesses, ensuring hassle-free management of bookings and optimizing your <br>operational efficiency. <br> For discerning diners seeking unforgettable culinary journeys, Warmlly serves as <br> your curated gateway to the finest restaurants. Explore a diverse array of dining <br> options, discover hidden gems, and reserve your table with ease, all within our <br> user-friendly platform. <br>Whether you're a restaurant owner striving for excellence or a connoisseur of fine  <br>dining, Warmlly is your trusted companion in elevating every dining experience. <br> Join us today and let's embark on a journey of culinary delights together!</p>
+    </section>
+    <section id="services">
+      <div class="services_section" id="services-1">
+        <div class="services-img" id="services-1-img"></div>
+        <div>
+          <h2>Streamline Operations <br>
+             with Our Tabler <br>
+              Reservation System</h2>
+          <p>Warmlly's table reservation system <br>
+            simplifies the booking process,<br>
+             allowing you to efficiently manage<br>
+              your restaurant's seating<br>
+              arrangements and enhance the<br>
+              overall dining experience for your<br>
+              customers.</p>
+        </div>
+      </div>
+      <div class="services_section" id="services-2">
+        <div class="services-img"id="services-2-img"></div>
+        <div>
+          <h2>Order Food Online and <br>
+            Enjoy the Convenience</h2>
+          <p>With Warmlly's online food ordering
+            <br>
+            feature, restaurants can offer their
+            <br> patrons a seamless and convenient
+             <br>
+             way to order their favorite dishes
+             <br>
+             from the comfort of their own
+             <br>
+              homes. Say goodbye to long wait
+               <br>
+               times and enjoy delicious meals with
+               <br>
+               just a few clicks.</p>
+        </div>
+      </div>
+      <div class="services_section" id="services-3">
+        <div class="services-img" id="services-3-img"></div>
+        <div>
+          <h2>Uncover Valuable <br>
+            Insights for
+            <br>
+             Enhanced Dining
+             <br> Experience</h2>
+            <p>Warmlly's Customer Analytics feature provides valuable
+              <br>insights into customer preferences, behavior, and dining 
+                <br>patterns. By analyzing data like order history,
+                <br>feedback, and demographics, restaurants can make 
+                <br>data-driven decisions to personalize dining experiences, improve menus, and enhance customer 
+                <br>satisfaction. Whether identifying popular dishes, 
+                <br> understanding peak dining hours, or tailoring
+                  <br>promotions, Warmlly empowers restaurants to optimize
+                  <br>operations and create memorable dining experiences.
+                </p>
+        </div>
+      </div>
+      <div id="services-cta">
+        <h2>Discover the Power of Warmlly</h2>
+        <p>Revolutionize your restaurant operations and elevate the dining experience for FREE.</p>
+        <button>Sign Up</button>
+      </div>
+    </section>
+    <section id="contacts   ">
+        <div>
+          <h2>Get in touch</h2>
+          <p>Have a question or need support? Contact us.</p>
+          <div class="contact-ways">
+            <img src="assets/email_icon.svg" alt="email">
+            <p>hello@warmlly.com</p>
+          </div>
+          <div class="contact-ways">
+            <img src="assets/phone_icon.svg" alt="phone number">
+            <p>+254759849050</p>
+          </div>
+          <div class="socials">
+            <a href=""><img src="assets/whatsapp_icon.svg" alt="whatsapp_icon"></a>
+            <a href=""><img src="assets/fb_icon.svg" alt="facebook icon"></a>
+            <a href=""><img src="assets/ig.svg" alt="instagram icon"></a>
+          </div>
+        </div>
+        <div>
+          <h2>Contact Us</h2>
+          <form action="/submit-form" method="POST">
+            <div class="form-row">
+              <div class="form-col">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+              </div>
+              <div class="form-col">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-col">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-col">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-col">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-col">
+                <input type="submit" value="Submit" class="form-btn"  id="business-form-btn">
+              </div>
+            </div>
+          </form> 
+        </div>
+    </section>
+    <hr>
+      <footer>
+        <div> <img src="assets/Warmlly@2x 1.svg" alt=""></div>
+        <div>
+          <ul>
+            <li><a href="#hero">hero</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="">Restaurants</a></li>
+          </ul>
+        </div>
+        <div>
+          © 2024 Warmlly. All rights reserved
+        </div>
+      </footer>
+    <button onclick="scrollToTop()" id="go-to-top" title="Go to top"><img src="assets/arrow-up.gif" alt="" width="16px" height="16px"></button>
+  </main>
+  <script defer src="scripts.js"></script>
+</body>
+</html>

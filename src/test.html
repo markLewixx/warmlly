@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fixed Top and Bottom Side Nav Bar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    .topnav {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #333;
+      color: white;
+      padding: 14px 20px;
+      text-align: center;
+      z-index: 1;
+    }
+    .sidenav {
+      width: 250px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      background-color: #111;
+      padding-bottom: 20px;
+      z-index: 1;
+    }
+    .sidenav a {
+      padding: 8px 8px 8px 16px;
+      text-decoration: none;
+      font-size: 25px;
+      color: white;
+      display: block;
+    }
+    .sidenav a:hover {
+      background-color: #575757;
+    }
+    .main {
+      margin-top: 60px; /* Adjust this value based on the height of the topnav */
+      margin-left: 260px; /* Same as the width of the sidenav plus a small gap */
+      padding: 20px;
+      p{
+        height: 100vh;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="topnav">
+    Top Navigation Bar
+  </div>
+
+  <div class="sidenav">
+    <a href="#section1">Section 1</a>
+    <a href="#section2">Section 2</a>
+    <a href="#section3">Section 3</a>
+    <a href="#section4">Section 4</a>
+    <a href="#section5">Section 5</a>
+  </div>
+
+  <div class="main">
+    <h2>Fixed Top and Bottom Side Nav Bar</h2>
+    <p>This example demonstrates a fixed top and bottom side navigation bar. Scroll this page to see how the side navigation stays fixed at the bottom.</p>
+    <h3 id="section1">Section 1</h3>
+    <p>Some content..</p>
+    <h3 id="section2">Section 2</h3>
+    <p>Some content..</p>
+    <h3 id="section3">Section 3</h3>
+    <p>Some content..</p>
+    <h3 id="section4">Section 4</h3>
+    <p>Some content..</p>
+    <h3 id="section5">Section 5</h3>
+    <p>Some content..</p>
+  </div>
+</body>
+</html>

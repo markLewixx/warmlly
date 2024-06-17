@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/round_warmlly.svg" type="image/x-icon">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-signup-container" >
+        <div class="login-signup-image">
+        </div>
+        <div class="login-signup-body"class="hidden">
+            <h1>WELCOME <br>
+            TO <br>
+            <img src="assets/Warmlly@2x 1.svg" alt="Warmlly logo">
+            </h1>
+            <form action="/submit-form" method="POST">
+                <h3><label for="email">Email:</label>                                </h3>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <h3><label for="password">Password:</label></h3>
+                <input type="password" id="password" name="password" required><br><br>
+                
+                <input type="submit" value="Submit" class="form-btn">
+            </form>  
+            <p>
+                Don't have an account? 
+                <a href="signup.html">Sign Up</a>
+            </p>
+            <hr>   
+            <p class="google-signup-login">
+                Or Login With <a href=""> 
+                <img src="assets/google-icon.svg" alt="google icon"> </a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
